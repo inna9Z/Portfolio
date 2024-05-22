@@ -1,5 +1,5 @@
 const gulp = require("gulp");
-const browserSync = require("browser-sync").create();
+const browserSync = require("browser-sync");
 const sass = require("gulp-sass")(require("sass"));
 const cleanCSS = require("gulp-clean-css");
 const autoprefixer = require("gulp-autoprefixer");
@@ -93,4 +93,3 @@ gulp.task('deploy', function () {
 
 
 
-// exports.default = gulp.parallel(watch, server, styles, scripts, fonts, icons, html, images);

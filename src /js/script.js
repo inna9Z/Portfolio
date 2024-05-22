@@ -36,7 +36,7 @@ handleMenuItemClick(about);
 handleMenuItemClick(experience);
 handleMenuItemClick(skills);
 handleMenuItemClick(work);
-handleMenuItemClick(contact);
+// handleMenuItemClick(contact);
 
 // window.addEventListener('DOMContentLoaded', () => {
 //   submitForm.addEventListener('click', (e) => handleFormData(e));
